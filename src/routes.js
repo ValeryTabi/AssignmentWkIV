@@ -36,7 +36,7 @@
             }
         })
 
-        .state('categories.menuItems', {
+        .state('menuItems', {
             url: '/menuItems/{category}',
             templateUrl: 'src/shoppinglist/templates/menuItems.template.html',
             controller: 'MenuItemsController as Menu',
